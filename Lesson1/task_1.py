@@ -1,4 +1,4 @@
-name = input('Введите ваше имя: ')
-surname = input('Введите вашу фамилию: ')
-date = int(input('Введите год вашего рождения: Dk'))
-print(f'Здравствуйте {surname} {name}, {date} года рождения!')
+name = input('input your first name: ')
+surname = input('input your last name: ')
+date = int(input('input your birthdate: '))
+print(f'Hello {name} {surname} of {date}!')
