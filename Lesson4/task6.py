@@ -1,6 +1,6 @@
 from itertools import islice, count, cycle
 
-my_list = [i for i in islice(count(1), 20)]
+my_list = [i for i in range(intcount(), 20)]
 
 iterable = cycle(my_list)
 counter = 0
